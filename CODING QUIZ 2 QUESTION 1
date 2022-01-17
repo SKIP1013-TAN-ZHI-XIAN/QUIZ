@@ -9,21 +9,21 @@ class Question1 {
 		Scanner scan = new Scanner(System.in); 
 	    
 		System.out.print("Total number of class held > ");
-	    int numClass= scan.nextInt();
+	    	int numClass= scan.nextInt();
 	    
-	    System.out.print("Total number of class attended > ");
-	    int numAttend= scan.nextInt();
+	    	System.out.print("Total number of class attended > ");
+	    	int numAttend= scan.nextInt();
 	    
-	    double percentage;
-	    percentage = (numAttend * (numClass*0.01));
+	    	double percentage;
+	    	percentage = (numAttend * (numClass*0.01));
 	   
-	    System.out.print("Percentage attendance > " + percentage + "%");
+	    	System.out.print("Percentage attendance > " + percentage + "%");
 	    
-	    if (percentage >= 75){
-	        System.out.print("\nStudent is allowed to sit for exam.");
-	    } else {
-	        System.out.print("\nStudent is not allowed to sit for exam.");
-	    }
+	    	if (percentage >= 75){
+	        	System.out.print("\nStudent is allowed to sit for exam.");
+	    	} else {
+	       		System.out.print("\nStudent is not allowed to sit for exam.");
+	    	}
 	}
 
 }
