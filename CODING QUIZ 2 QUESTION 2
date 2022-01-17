@@ -1,0 +1,20 @@
+package quiz2;
+
+import java.util.Scanner;
+
+class Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int integer = 12345;
+		int reverse = 0;
+		
+		System.out.println("Enter five integer : " + integer);
+		while (integer != 0) {
+			int num = integer % 10;
+			reverse = reverse * 10 + num;
+			integer /= 10;
+		}
+		System.out.println("The reversed number is : " + reverse);
+	}
+}
